@@ -1,0 +1,47 @@
+div p,
+h1,
+.header {
+    color: brown;
+}
+
+/* child selector */
+
+div>p,
+h1 {
+    color: cadetblue;
+}
+
+div+p {
+    color: maroon;
+}
+
+h1:hover {
+    color: brown;
+
+}
+
+h2::first-letter {
+    color: rgb(0, 0, 0);
+}
+
+input[text] {
+    color: brown;
+    width: 500px;
+
+
+}
+
+h2 {
+    font-family: 'Rubik Vinyl', cursive;
+    font-weight: 800;
+    font-size: 3rem;
+}
+
+h3 {
+    /* short-hand syntax */
+    border: 2px solid black;
+    border-color: gold;
+    padding: 12px;
+
+
+}
